@@ -1,0 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=DM Sans:300,400,500,600,700");
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
