@@ -1,0 +1,2 @@
+import{j as t}from"./jsx-runtime-ffb262ed.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";const i={decorators:[e=>t.jsx("div",{style:{width:"600px",justifyItems:"center",alignItems:"center"},children:t.jsx(e,{})})],parameters:{actions:{argTypesRegex:"^on[A-Z].*"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}}}};export{i as default};
+//# sourceMappingURL=preview-b31ce229.js.map
