@@ -16,8 +16,7 @@
     "typecheck": "tsc --project tsconfig.json --noEmit",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "predeploy": "bun run build-storybook",
-    "deploy-storybook": "gh-pages -d storybook-static"
+    "deploy-storybook": "bun build-storybook && gh-pages -d storybook-static"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.0.5",
