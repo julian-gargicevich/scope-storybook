@@ -3,9 +3,9 @@ import { RouterProvider } from "react-router-dom";
 
 import { ConfigProvider, theme } from "antd";
 import { router } from "routes";
-import { colors } from "theme";
 
 import ScriptLoader from "components/ScriptLoader";
+import { colors } from "theme";
 
 declare global {
   interface Window {
@@ -36,13 +36,12 @@ export default function App() {
             },
             App: {
               lineHeight: undefined,
-              fontSize: 13,
-              fontFamily: "Source Sans Pro",
+              fontFamily: "Aeonik",
             },
           },
           algorithm: theme.defaultAlgorithm,
           token: {
-            fontFamily: "Source Sans Pro",
+            fontFamily: "Aeonik",
             colorPrimary: colors.primary,
             colorPrimaryBg: colors.sky[100],
             colorPrimaryBgHover: colors.sky[200],

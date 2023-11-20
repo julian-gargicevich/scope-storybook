@@ -1,6 +1,9 @@
 const SplashPage = () => {
-  console.log("SplashPage");
-  return <div className="flex w-full flex-1 items-center justify-center"></div>;
+  return (
+    <div className="">
+      <h2>Test</h2>
+    </div>
+  );
 };
 
 export default SplashPage;

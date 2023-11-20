@@ -22,17 +22,25 @@ export const customColors = {
 };
 
 export const colors = {
-  ...tailwindColors,
   ...customColors,
+  ...tailwindColors,
 };
 
-export const content = ["./src/**/*.{js,ts,jsx,tsx,html}"];
+export const content = ["./src/**/*.{js,ts,jsx,tsx,html}", "./index.html"];
 
 export const theme = {
   extend: {
     colors,
-    fontFamily: { sans: ['"DM Sans"', "sans-serif"] },
+    fontFamily: {
+      sans: ["Aeonik", "sans-serif"],
+    },
+    flex: {
+      2: "2 2 0%",
+      3: "3 3 0%",
+    },
   },
 };
 
-export const corePlugins = {};
+export const corePlugins = {
+  preflight: false,
+};
